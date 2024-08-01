@@ -2,6 +2,13 @@
 
 Easily run and test Godot applications that you see on GitHub on your terminal.
 
+## Installation 📦
+`godot-run` is available on [Crates.io](https://crates.io/crates/godot-run). You can install simply by;
+
+```bash
+cargo install godot-run
+```
+
 ## Usage 🛠️
 
 `godot-run` is a simple CLI tool that can be used to run and test Godot applications that you see on GitHub quickly on your terminal. Using it is pretty simple:

@@ -2,9 +2,12 @@
 name = "godot-run"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Run Godot projects from GitHub quickly and easily"
+repository = "https://github.com/yunusey/godot-run"
 
 [dependencies]
 clap = { version = "4.5.11", features = ["derive"] }
-git2 = "0.19.0"
+git2 = "0.19.0"	
 regex = "1.10.5"
 which = "6.0.2"

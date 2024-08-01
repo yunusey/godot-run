@@ -25,16 +25,16 @@ Options:
 
 ## Repository Cloning 🚚
 Something nice about `godot-run` is that you can give it a subpath to the repository, and it will work flawlessly (hopefully :D). For instance, you can run `godot-run github.com/godotengine/godot-demo-projects/tree/master/gui/theming_override`. Just make sure that the subpath you give has the `project.godot` file. The format of the repository can be any of the following:
-- https://www.github.com/<owner>/<repository>
-- https://www.github.com/<owner>/<repository>/tree/<branch>/<subpath1>/<subpath2>/...
-- www.github.com/<owner>/<repository>/tree/<branch>/<subpath1>/<subpath2>/...
-- <owner>/<repository>
-- <owner>/<repository>/tree/<branch>/<subpath1>/<subpath2>/...
+- https://www.github.com/\<owner\>/\<repository\>
+- https://www.github.com/\<owner\>/\<repository\>/tree/\<branch\>/\<subpath1\>/\<subpath2\>/...
+- www.github.com/\<owner\>/\<repository\>/tree/\<branch\>/\<subpath1\>/\<subpath2\>/...
+- \<owner\>/\<repository\>
+- \<owner\>/\<repository\>/tree/\<branch\>/\<subpath1\>/\<subpath2\>/...
 
 You got the point! Just write it somehow, and hopefully `godot-run` will handle the rest.
 
 > [!warning]
-> Currently, `godot-run` clones the **entire** repository regardless on whether or not you specified a subpath.
+> Currently, `godot-run` clones the **entire** repository regardless of whether or not you specified a subpath.
 
 > [!warning]
 > I haven't implemented a caching system yet, as I've just made the program for *very* basic use cases; but if you are interested, please let me know by [opening an issue](https://github.com/yunusey/godot-run/issues) or just implement it yourself and don't forget to [open up a PR](https://github.com/yunusey/godot-run/pulls)!
